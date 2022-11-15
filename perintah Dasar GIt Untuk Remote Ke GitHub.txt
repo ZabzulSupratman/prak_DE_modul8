@@ -1,0 +1,16 @@
+git config --global user.email "zabzulm@gmail.com"
+
+#menginisialisasi folder lokal menjadi repostitory
+git init
+
+#menambahkan file yang akan di commit
+git add .
+
+#melakukan remote ke github
+git remote add origin https://github.com/ZabzulSupratman/prak_DE_modul8.git
+
+#melakukan kommit
+git commit -m "commit Pertama"
+
+#melakukan push ke remote github
+git push -u origin main
